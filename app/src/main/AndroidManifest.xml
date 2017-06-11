@@ -20,8 +20,23 @@
         </activity>
         <activity
             android:name=".PersonalDataActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".BuyActivity"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SellActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SellSituationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubScripeActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".AboutUsActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".QAActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

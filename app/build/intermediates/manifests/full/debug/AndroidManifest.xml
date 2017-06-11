@@ -27,7 +27,22 @@
         <activity
             android:name="com.example.admin.secondsell.PersonalDataActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.admin.secondsell.BuyActivity" />
+        <activity
+            android:name="com.example.admin.secondsell.SellActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin.secondsell.SellSituationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin.secondsell.SubScripeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin.secondsell.AboutUsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin.secondsell.QAActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

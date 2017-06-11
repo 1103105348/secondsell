@@ -22,8 +22,15 @@ public class ParentActivity extends AppCompatActivity implements NavigationView.
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
         Button button_personal_data = (Button) findViewById(R.id.button_personal_data);
         Button button_buy = (Button) findViewById(R.id.button_buy);
+        Button button_sell_situation = (Button) findViewById(R.id.button_sell_situation);
+        Button button_sub = (Button) findViewById(R.id.button_sub);
+        Button button_about_us = (Button) findViewById(R.id.button_about_us);
+        Button button_qa = (Button) findViewById(R.id.button_QA);
+        Button button_home = (Button) findViewById(R.id.button_home);
+
         button_personal_data.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,11 +42,52 @@ public class ParentActivity extends AppCompatActivity implements NavigationView.
         button_buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                startActivity(new Intent(ParentActivity.this, SellActivity.class));
+                finish();
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }
+        });
+        button_sell_situation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ParentActivity.this, SellSituationActivity.class));
+                finish();
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }
+        });
+        button_sub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ParentActivity.this, SubScripeActivity.class));
+                finish();
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }
+        });
+        button_about_us.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ParentActivity.this, AboutUsActivity.class));
+                finish();
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }
+        });
+        button_qa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ParentActivity.this, QAActivity.class));
+                finish();
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }
+        });
+        button_home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 startActivity(new Intent(ParentActivity.this, ThreeActivity.class));
                 finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
+
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
@@ -70,5 +118,10 @@ public class ParentActivity extends AppCompatActivity implements NavigationView.
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }

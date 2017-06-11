@@ -54,42 +54,42 @@
                     android:text="販售情形"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_3"
+                    android:id="@+id/button_sell_situation"
                     android:background="@android:color/transparent" />
 
                 <Button
                     android:text="訂閱"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_4"
+                    android:id="@+id/button_sub"
                     android:background="@android:color/transparent" />
 
                 <Button
                     android:text="關於我們"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_5"
+                    android:id="@+id/button_about_us"
                     android:background="@android:color/transparent" />
 
                 <Button
                     android:text="問與答"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_6"
+                    android:id="@+id/button_QA"
                     android:background="@android:color/transparent" />
 
                 <Button
                     android:text="首頁"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_7"
+                    android:id="@+id/button_home"
                     android:background="@android:color/transparent" />
 
                 <Button
                     android:text="登出"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_8"
+                    android:id="@+id/button_log_out"
                     android:background="@android:color/transparent" />
             </LinearLayout>
 

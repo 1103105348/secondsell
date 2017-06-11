@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },

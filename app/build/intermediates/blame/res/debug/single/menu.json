@@ -16,6 +16,14 @@
         "source": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
+        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
+        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
         "source": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
     },
