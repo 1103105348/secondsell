@@ -1,42 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
+        "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
+        "source": "C:\\Github\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
-        "source": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
-        "source": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\three.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\src\\main\\res\\menu\\three.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
+        "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_three_drawer.xml",
+        "source": "C:\\Github\\secondsell\\app\\src\\main\\res\\menu\\activity_three_drawer.xml"
     }
 ]

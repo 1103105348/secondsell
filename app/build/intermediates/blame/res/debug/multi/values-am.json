@@ -1,1218 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 101,
-                    "endOffset": 152
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 101,
-                        "endOffset": 152
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 157,
-                    "endColumn": 107,
-                    "endOffset": 260
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 157,
-                        "endColumn": 107,
-                        "endOffset": 260
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 265,
-                    "endColumn": 122,
-                    "endOffset": 383
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 265,
-                        "endColumn": 122,
-                        "endOffset": 383
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 388,
-                    "endColumn": 98,
-                    "endOffset": 482
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 388,
-                        "endColumn": 98,
-                        "endOffset": 482
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 487,
-                    "endColumn": 105,
-                    "endOffset": 588
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 487,
-                        "endColumn": 105,
-                        "endOffset": 588
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 593,
-                    "endColumn": 85,
-                    "endOffset": 674
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 593,
-                        "endColumn": 85,
-                        "endOffset": 674
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 679,
-                    "endColumn": 102,
-                    "endOffset": 777
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 679,
-                        "endColumn": 102,
-                        "endOffset": 777
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 782,
-                    "endColumn": 112,
-                    "endOffset": 890
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 782,
-                        "endColumn": 112,
-                        "endOffset": 890
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 895,
-                    "endColumn": 77,
-                    "endOffset": 968
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 895,
-                        "endColumn": 77,
-                        "endOffset": 968
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 973,
-                    "endColumn": 77,
-                    "endOffset": 1046
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 973,
-                        "endColumn": 77,
-                        "endOffset": 1046
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1051,
-                    "endColumn": 78,
-                    "endOffset": 1125
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1051,
-                        "endColumn": 78,
-                        "endOffset": 1125
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1130,
-                    "endColumn": 99,
-                    "endOffset": 1225
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1130,
-                        "endColumn": 99,
-                        "endOffset": 1225
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1230,
-                    "endColumn": 99,
-                    "endOffset": 1325
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1230,
-                        "endColumn": 99,
-                        "endOffset": 1325
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1330,
-                    "endColumn": 95,
-                    "endOffset": 1421
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1330,
-                        "endColumn": 95,
-                        "endOffset": 1421
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1426,
-                    "endColumn": 102,
-                    "endOffset": 1524
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1426,
-                        "endColumn": 102,
-                        "endOffset": 1524
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1529,
-                    "endColumn": 98,
-                    "endOffset": 1623
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1529,
-                        "endColumn": 98,
-                        "endOffset": 1623
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1628,
-                    "endColumn": 106,
-                    "endOffset": 1730
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1628,
-                        "endColumn": 106,
-                        "endOffset": 1730
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1735,
-                    "endColumn": 115,
-                    "endOffset": 1846
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1735,
-                        "endColumn": 115,
-                        "endOffset": 1846
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1851,
-                    "endColumn": 95,
-                    "endOffset": 1942
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1851,
-                        "endColumn": 95,
-                        "endOffset": 1942
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1947,
-                    "endColumn": 78,
-                    "endOffset": 2021
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1947,
-                        "endColumn": 78,
-                        "endOffset": 2021
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2026,
-                    "endColumn": 100,
-                    "endOffset": 2122
-                },
-                "from": {
-                    "file": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2026,
-                        "endColumn": 100,
-                        "endOffset": 2122
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 101,
-                    "endOffset": 152
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 101,
-                        "endOffset": 152
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 157,
-                    "endColumn": 107,
-                    "endOffset": 260
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 157,
-                        "endColumn": 107,
-                        "endOffset": 260
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 265,
-                    "endColumn": 122,
-                    "endOffset": 383
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 265,
-                        "endColumn": 122,
-                        "endOffset": 383
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 388,
-                    "endColumn": 98,
-                    "endOffset": 482
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 388,
-                        "endColumn": 98,
-                        "endOffset": 482
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 487,
-                    "endColumn": 105,
-                    "endOffset": 588
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 487,
-                        "endColumn": 105,
-                        "endOffset": 588
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 593,
-                    "endColumn": 85,
-                    "endOffset": 674
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 593,
-                        "endColumn": 85,
-                        "endOffset": 674
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 679,
-                    "endColumn": 102,
-                    "endOffset": 777
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 679,
-                        "endColumn": 102,
-                        "endOffset": 777
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 782,
-                    "endColumn": 112,
-                    "endOffset": 890
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 782,
-                        "endColumn": 112,
-                        "endOffset": 890
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 895,
-                    "endColumn": 77,
-                    "endOffset": 968
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 895,
-                        "endColumn": 77,
-                        "endOffset": 968
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 973,
-                    "endColumn": 77,
-                    "endOffset": 1046
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 973,
-                        "endColumn": 77,
-                        "endOffset": 1046
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1051,
-                    "endColumn": 78,
-                    "endOffset": 1125
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1051,
-                        "endColumn": 78,
-                        "endOffset": 1125
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1130,
-                    "endColumn": 99,
-                    "endOffset": 1225
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1130,
-                        "endColumn": 99,
-                        "endOffset": 1225
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1230,
-                    "endColumn": 99,
-                    "endOffset": 1325
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1230,
-                        "endColumn": 99,
-                        "endOffset": 1325
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1330,
-                    "endColumn": 95,
-                    "endOffset": 1421
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1330,
-                        "endColumn": 95,
-                        "endOffset": 1421
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1426,
-                    "endColumn": 102,
-                    "endOffset": 1524
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1426,
-                        "endColumn": 102,
-                        "endOffset": 1524
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1529,
-                    "endColumn": 98,
-                    "endOffset": 1623
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1529,
-                        "endColumn": 98,
-                        "endOffset": 1623
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1628,
-                    "endColumn": 106,
-                    "endOffset": 1730
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1628,
-                        "endColumn": 106,
-                        "endOffset": 1730
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1735,
-                    "endColumn": 115,
-                    "endOffset": 1846
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1735,
-                        "endColumn": 115,
-                        "endOffset": 1846
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1851,
-                    "endColumn": 95,
-                    "endOffset": 1942
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1851,
-                        "endColumn": 95,
-                        "endOffset": 1942
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1947,
-                    "endColumn": 78,
-                    "endOffset": 2021
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1947,
-                        "endColumn": 78,
-                        "endOffset": 2021
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2026,
-                    "endColumn": 100,
-                    "endOffset": 2122
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2026,
-                        "endColumn": 100,
-                        "endOffset": 2122
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 101,
-                    "endOffset": 152
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 101,
-                        "endOffset": 152
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 157,
-                    "endColumn": 107,
-                    "endOffset": 260
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 157,
-                        "endColumn": 107,
-                        "endOffset": 260
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 265,
-                    "endColumn": 122,
-                    "endOffset": 383
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 265,
-                        "endColumn": 122,
-                        "endOffset": 383
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 388,
-                    "endColumn": 98,
-                    "endOffset": 482
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 388,
-                        "endColumn": 98,
-                        "endOffset": 482
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 487,
-                    "endColumn": 105,
-                    "endOffset": 588
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 487,
-                        "endColumn": 105,
-                        "endOffset": 588
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 593,
-                    "endColumn": 85,
-                    "endOffset": 674
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 593,
-                        "endColumn": 85,
-                        "endOffset": 674
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 679,
-                    "endColumn": 102,
-                    "endOffset": 777
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 679,
-                        "endColumn": 102,
-                        "endOffset": 777
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 782,
-                    "endColumn": 112,
-                    "endOffset": 890
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 782,
-                        "endColumn": 112,
-                        "endOffset": 890
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 895,
-                    "endColumn": 77,
-                    "endOffset": 968
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 895,
-                        "endColumn": 77,
-                        "endOffset": 968
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 973,
-                    "endColumn": 77,
-                    "endOffset": 1046
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 973,
-                        "endColumn": 77,
-                        "endOffset": 1046
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1051,
-                    "endColumn": 78,
-                    "endOffset": 1125
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1051,
-                        "endColumn": 78,
-                        "endOffset": 1125
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1130,
-                    "endColumn": 99,
-                    "endOffset": 1225
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1130,
-                        "endColumn": 99,
-                        "endOffset": 1225
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1230,
-                    "endColumn": 99,
-                    "endOffset": 1325
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1230,
-                        "endColumn": 99,
-                        "endOffset": 1325
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1330,
-                    "endColumn": 95,
-                    "endOffset": 1421
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1330,
-                        "endColumn": 95,
-                        "endOffset": 1421
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1426,
-                    "endColumn": 102,
-                    "endOffset": 1524
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1426,
-                        "endColumn": 102,
-                        "endOffset": 1524
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1529,
-                    "endColumn": 98,
-                    "endOffset": 1623
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1529,
-                        "endColumn": 98,
-                        "endOffset": 1623
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1628,
-                    "endColumn": 106,
-                    "endOffset": 1730
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1628,
-                        "endColumn": 106,
-                        "endOffset": 1730
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1735,
-                    "endColumn": 115,
-                    "endOffset": 1846
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1735,
-                        "endColumn": 115,
-                        "endOffset": 1846
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1851,
-                    "endColumn": 95,
-                    "endOffset": 1942
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1851,
-                        "endColumn": 95,
-                        "endOffset": 1942
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1947,
-                    "endColumn": 78,
-                    "endOffset": 2021
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1947,
-                        "endColumn": 78,
-                        "endOffset": 2021
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2026,
-                    "endColumn": 100,
-                    "endOffset": 2122
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2026,
-                        "endColumn": 100,
-                        "endOffset": 2122
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
+        "outputFile": "C:\\Github\\secondsell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
         "map": [
             {
                 "to": {
@@ -1223,7 +11,7 @@
                     "endOffset": 202
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1242,7 +30,7 @@
                     "endOffset": 310
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1261,7 +49,7 @@
                     "endOffset": 433
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1280,7 +68,7 @@
                     "endOffset": 532
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1299,7 +87,7 @@
                     "endOffset": 638
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1318,7 +106,7 @@
                     "endOffset": 724
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1337,7 +125,7 @@
                     "endOffset": 827
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1356,7 +144,7 @@
                     "endOffset": 940
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1375,7 +163,7 @@
                     "endOffset": 1018
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1394,7 +182,7 @@
                     "endOffset": 1096
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1413,7 +201,7 @@
                     "endOffset": 1175
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1432,7 +220,7 @@
                     "endOffset": 1275
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1451,7 +239,7 @@
                     "endOffset": 1375
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1470,7 +258,7 @@
                     "endOffset": 1471
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1489,7 +277,7 @@
                     "endOffset": 1574
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1508,7 +296,7 @@
                     "endOffset": 1673
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1527,7 +315,7 @@
                     "endOffset": 1780
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1546,7 +334,7 @@
                     "endOffset": 1896
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1565,7 +353,7 @@
                     "endOffset": 1992
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1584,7 +372,7 @@
                     "endOffset": 2096
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1603,7 +391,7 @@
                     "endOffset": 2267
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -1622,7 +410,7 @@
                     "endOffset": 2391
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -1641,7 +429,7 @@
                     "endOffset": 2495
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -1660,7 +448,7 @@
                     "endOffset": 2681
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -1679,7 +467,7 @@
                     "endOffset": 2806
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -1698,7 +486,7 @@
                     "endOffset": 2937
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -1717,7 +505,7 @@
                     "endOffset": 3128
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\4d388695fdf1804e6c38d3c58711e84390f30d93\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1736,7 +524,7 @@
                     "endOffset": 3315
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -1755,7 +543,7 @@
                     "endOffset": 3420
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -1774,7 +562,7 @@
                     "endOffset": 3596
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -1793,7 +581,7 @@
                     "endOffset": 3721
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1812,7 +600,7 @@
                     "endOffset": 3915
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1831,7 +619,7 @@
                     "endOffset": 4072
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1850,7 +638,7 @@
                     "endOffset": 4162
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1869,7 +657,7 @@
                     "endOffset": 4249
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1888,7 +676,7 @@
                     "endOffset": 4349
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\11.0.4\\res\\values-am\\values.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\values-am\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1907,7 +695,7 @@
                     "endOffset": 4428
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1926,411 +714,7 @@
                     "endOffset": 4529
                 },
                 "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2026,
-                        "endColumn": 100,
-                        "endOffset": 2122
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 101,
-                    "endOffset": 152
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 101,
-                        "endOffset": 152
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 157,
-                    "endColumn": 107,
-                    "endOffset": 260
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 157,
-                        "endColumn": 107,
-                        "endOffset": 260
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 265,
-                    "endColumn": 122,
-                    "endOffset": 383
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 265,
-                        "endColumn": 122,
-                        "endOffset": 383
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 388,
-                    "endColumn": 98,
-                    "endOffset": 482
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 388,
-                        "endColumn": 98,
-                        "endOffset": 482
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 487,
-                    "endColumn": 105,
-                    "endOffset": 588
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 487,
-                        "endColumn": 105,
-                        "endOffset": 588
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 593,
-                    "endColumn": 85,
-                    "endOffset": 674
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 593,
-                        "endColumn": 85,
-                        "endOffset": 674
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 679,
-                    "endColumn": 102,
-                    "endOffset": 777
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 679,
-                        "endColumn": 102,
-                        "endOffset": 777
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 782,
-                    "endColumn": 112,
-                    "endOffset": 890
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 782,
-                        "endColumn": 112,
-                        "endOffset": 890
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 895,
-                    "endColumn": 77,
-                    "endOffset": 968
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 895,
-                        "endColumn": 77,
-                        "endOffset": 968
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 973,
-                    "endColumn": 77,
-                    "endOffset": 1046
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 973,
-                        "endColumn": 77,
-                        "endOffset": 1046
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1051,
-                    "endColumn": 78,
-                    "endOffset": 1125
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1051,
-                        "endColumn": 78,
-                        "endOffset": 1125
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1130,
-                    "endColumn": 99,
-                    "endOffset": 1225
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1130,
-                        "endColumn": 99,
-                        "endOffset": 1225
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1230,
-                    "endColumn": 99,
-                    "endOffset": 1325
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1230,
-                        "endColumn": 99,
-                        "endOffset": 1325
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1330,
-                    "endColumn": 95,
-                    "endOffset": 1421
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1330,
-                        "endColumn": 95,
-                        "endOffset": 1421
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1426,
-                    "endColumn": 102,
-                    "endOffset": 1524
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1426,
-                        "endColumn": 102,
-                        "endOffset": 1524
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1529,
-                    "endColumn": 98,
-                    "endOffset": 1623
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1529,
-                        "endColumn": 98,
-                        "endOffset": 1623
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1628,
-                    "endColumn": 106,
-                    "endOffset": 1730
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1628,
-                        "endColumn": 106,
-                        "endOffset": 1730
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1735,
-                    "endColumn": 115,
-                    "endOffset": 1846
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1735,
-                        "endColumn": 115,
-                        "endOffset": 1846
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1851,
-                    "endColumn": 95,
-                    "endOffset": 1942
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1851,
-                        "endColumn": 95,
-                        "endOffset": 1942
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1947,
-                    "endColumn": 78,
-                    "endOffset": 2021
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1947,
-                        "endColumn": 78,
-                        "endOffset": 2021
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2026,
-                    "endColumn": 100,
-                    "endOffset": 2122
-                },
-                "from": {
-                    "file": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-am\\values-am.xml",
+                    "file": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\values-am\\values-am.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

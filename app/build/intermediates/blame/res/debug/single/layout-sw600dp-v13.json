@@ -1,22 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell_2\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Ray\\Desktop\\secondsell\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+        "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Ray\\.android\\build-cache\\196cb20fbc6262f2e096b0ad254ba2c07a1bcb8d\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]
