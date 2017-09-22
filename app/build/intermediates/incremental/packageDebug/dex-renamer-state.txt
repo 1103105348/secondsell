@@ -1,7 +1,4 @@
-#Fri Sep 22 20:59:00 CST 2017
-base.0=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_910d8ea7ffbd0128c8d0150d83d050fdc869c7b1
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3308977565bd94c693ac20cea400455ddfebd4a7\\classes.dex
-base.1=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3308977565bd94c693ac20cea400455ddfebd4a7
-file.0=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_910d8ea7ffbd0128c8d0150d83d050fdc869c7b1\\classes.dex
+#Fri Sep 22 23:39:56 CST 2017
+base.0=C\:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

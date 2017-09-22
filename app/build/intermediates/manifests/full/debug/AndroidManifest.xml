@@ -23,6 +23,7 @@
     <uses-permission android:name="com.example.admin.secondsell.permission.C2D_MESSAGE" />
 
     <application
+        android:name="com.example.admin.secondsell.DefaultApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -31,8 +32,7 @@
         <activity
             android:name="com.example.admin.secondsell.ThreeActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.admin.secondsell.PersonalDataActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -58,6 +58,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.admin.secondsell.RegisterActivity" />
         <!--
          FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"

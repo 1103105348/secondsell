@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="rules-0.5">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ec5940d848a0b86e2bb45f7a447762c00f57584e/output/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/cc91807ec4a21b2c9c562bdfdb45018407b8df6f/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/cc91807ec4a21b2c9c562bdfdb45018407b8df6f/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ec5940d848a0b86e2bb45f7a447762c00f57584e/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/ec5940d848a0b86e2bb45f7a447762c00f57584e/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
