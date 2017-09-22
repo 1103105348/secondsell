@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "453488935046",
+    "firebase_url": "https://secondsell-184af.firebaseio.com",
+    "project_id": "secondsell-184af",
+    "storage_bucket": "secondsell-184af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453488935046:android:c5d951db0671f161",
+        "android_client_info": {
+          "package_name": "com.example.admin.secondsell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453488935046-2hjhm97e8tkrt61h5lkkmr1atn87a1ja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.secondsell",
+            "certificate_hash": "b5d28ca86110c62fa57fd996eb6813667ddb680f"
+          }
+        },
+        {
+          "client_id": "453488935046-49sqm18jggauug251umlprvrks2v99i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs5HooeKRVPCBeKfEfQY4O9N8-1jkR9v8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453488935046-49sqm18jggauug251umlprvrks2v99i3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
