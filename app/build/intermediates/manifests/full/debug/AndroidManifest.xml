@@ -51,7 +51,7 @@
         <activity
             android:name="com.example.admin.secondsell.QAActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.admin.secondsell.loginActivity" >
+        <activity android:name="com.example.admin.secondsell.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

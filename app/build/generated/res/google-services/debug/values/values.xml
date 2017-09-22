@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">453488935046-49sqm18jggauug251umlprvrks2v99i3.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://secondsell-184af.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">453488935046</string>
-    <string name="google_api_key" translatable="false">AIzaSyBs5HooeKRVPCBeKfEfQY4O9N8-1jkR9v8</string>
-    <string name="google_app_id" translatable="false">1:453488935046:android:c5d951db0671f161</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBs5HooeKRVPCBeKfEfQY4O9N8-1jkR9v8</string>
-    <string name="google_storage_bucket" translatable="false">secondsell-184af.appspot.com</string>
+    <string name="default_web_client_id" translatable="false">1005257508941-bmalf629ko1gqrsvffr23bk22tfcvad5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://secondsell-14e77.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1005257508941</string>
+    <string name="google_api_key" translatable="false">AIzaSyAg1Vj178Kd4fE5XU9IKRsxP_0rSP9uQIs</string>
+    <string name="google_app_id" translatable="false">1:1005257508941:android:c5d951db0671f161</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAg1Vj178Kd4fE5XU9IKRsxP_0rSP9uQIs</string>
+    <string name="google_storage_bucket" translatable="false">secondsell-14e77.appspot.com</string>
 </resources>
