@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
@@ -28,20 +28,20 @@
         "source": "C:\\Users\\Ray\\.android\\build-cache\\99f9e4b2d88dc6ed556235a3b2053bf34b41034f\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
         "source": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",

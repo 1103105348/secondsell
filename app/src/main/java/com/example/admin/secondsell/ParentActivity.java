@@ -83,7 +83,7 @@ public class ParentActivity extends AppCompatActivity implements NavigationView.
         button_home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ParentActivity.this, ThreeActivity.class));
+                startActivity(new Intent(ParentActivity.this, HomeActivity.class));
                 finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }

@@ -89,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
                     new AlertDialog.Builder(LoginActivity.this)
                             .setMessage(login_message)
                             .show();
-                    startActivity(new Intent(LoginActivity.this, AboutUsActivity.class));
+                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                     finish();
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 

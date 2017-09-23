@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Admin\\.android\\build-cache\\e11744c6192a45d38a97121ab0bc95954c6c7753\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Ray\\.android\\build-cache\\af8230ed9b5f0c36a9623e05994f4502e0272998\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Admin\\.android\\build-cache\\e11744c6192a45d38a97121ab0bc95954c6c7753\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -392,6 +392,10 @@
         "source": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\src\\main\\res\\layout\\activity_regist.xml"
     },
     {
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_sell.xml",
         "source": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\src\\main\\res\\layout\\content_sell.xml"
     },
@@ -438,6 +442,10 @@
     {
         "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\Admin\\.android\\build-cache\\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_home.xml",
+        "source": "C:\\Users\\Admin\\Desktop\\secondsell(new)\\secondsell\\app\\src\\main\\res\\layout\\content_home.xml"
     },
     {
         "merged": "C:\\Github\\secondsell\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",

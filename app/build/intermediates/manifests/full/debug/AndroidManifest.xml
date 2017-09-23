@@ -29,6 +29,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.admin.secondsell.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.admin.secondsell.RegisterActivity" />
         <activity
             android:name="com.example.admin.secondsell.ThreeActivity"
             android:label="@string/app_name"
@@ -51,14 +59,9 @@
         <activity
             android:name="com.example.admin.secondsell.QAActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.admin.secondsell.LoginActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.example.admin.secondsell.RegisterActivity" />
+        <activity
+            android:name="com.example.admin.secondsell.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <!--
          FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
