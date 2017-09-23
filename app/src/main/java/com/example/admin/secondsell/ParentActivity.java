@@ -30,6 +30,7 @@ public class ParentActivity extends AppCompatActivity implements NavigationView.
         Button button_about_us = (Button) findViewById(R.id.button_about_us);
         Button button_qa = (Button) findViewById(R.id.button_QA);
         Button button_home = (Button) findViewById(R.id.button_home);
+        Button button_logout = (Button) findViewById(R.id.button_log_out);
 
         button_personal_data.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,6 +88,15 @@ public class ParentActivity extends AppCompatActivity implements NavigationView.
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
+        button_logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ParentActivity.this, LoginActivity.class));
+                finish();
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }
+        });
+
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);

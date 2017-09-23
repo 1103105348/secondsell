@@ -1,5 +1,6 @@
 package com.example.admin.secondsell;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -48,31 +49,39 @@ public class RegisterActivity extends AppCompatActivity {
 
     public void register(){
 
-        String email = ((EditText) findViewById(R.id.regist_editText_email)).getText().toString();
-        String password = ((EditText) findViewById(R.id.regist_editText_password)).getText().toString();
+        String register_email = ((EditText) findViewById(R.id.regist_editText_email)).getText().toString();
+        String register_password = ((EditText) findViewById(R.id.regist_editText_password)).getText().toString();
 
-        ((DefaultApplication)getApplication()).getAuth().createUserWithEmailAndPassword(email,password).addOnCompleteListener( this,new OnCompleteListener<AuthResult>() {
+        ((DefaultApplication)getApplication()).getAuth()
+                .createUserWithEmailAndPassword(register_email,register_password)
+                .addOnCompleteListener( this,new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d("X", "createUserWithEmail:success");
+                    Toast.makeText(RegisterActivity.this, "註冊成功，可以登入囉!",
+                            Toast.LENGTH_SHORT).show();
                     user = ((DefaultApplication)getApplication()).getAuth().getCurrentUser();
+
+                    startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                    finish();
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 
                 } else {
                     // If sign in fails, display a message to the user.
+
                     Log.w("X", "createUserWithEmail:failure", task.getException());
                     Toast.makeText(RegisterActivity.this, "Authentication failed.",
                             Toast.LENGTH_SHORT).show();
 
                 }
 
-
-                String register_message = task.isComplete()?"註冊成功":"註冊失敗";
+                /*String register_message = task.isSuccessful()?"註冊成功":"註冊失敗";
                 new AlertDialog.Builder(RegisterActivity.this)
                         .setMessage(register_message)
                         .setPositiveButton("OK",null)
-                        .show();
+                        .show();*/
             }
         });
     }

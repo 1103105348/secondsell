@@ -22,6 +22,7 @@ public class DefaultApplication extends Application {
 
 
     private void initFirebaseAuth(){
+
         auth = FirebaseAuth.getInstance();
     }
 

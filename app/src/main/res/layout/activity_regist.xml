@@ -11,7 +11,7 @@
     tools:context="com.example.admin.secondsell.RegisterActivity">
 
     <TextView
-        android:text="TextView"
+        android:text="Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -33,7 +33,7 @@
         android:hint="註冊帳號" />
 
     <TextView
-        android:text="TextView"
+        android:text="Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/regist_editText_email"
@@ -51,7 +51,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:id="@+id/regist_editText_password"
-        android:hint="註冊密碼" />
+        android:hint="請輸入6個以上密碼" />
 
     <Button
         android:text="確定註冊"

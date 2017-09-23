@@ -3,6 +3,7 @@ package com.example.admin.secondsell;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -77,16 +78,26 @@ public class LoginActivity extends AppCompatActivity {
         String email = ((EditText) findViewById(R.id.login_editText_email)).getText().toString();
         String password = ((EditText) findViewById(R.id.logic_editTex_password)).getText().toString();
         Log.d("AUTH", email + "/" + password);
-        ((DefaultApplication)getApplication()).getAuth().signInWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+        ((DefaultApplication)getApplication()).getAuth()
+                .signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     // Sign in success, update UI with the signed-in user's information
+                    String login_message = task.isSuccessful()?"登入成功":"登入失敗";
+                    new AlertDialog.Builder(LoginActivity.this)
+                            .setMessage(login_message)
+                            .show();
                     startActivity(new Intent(LoginActivity.this, AboutUsActivity.class));
                     finish();
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-                } else {
-                    Toast.makeText(LoginActivity.this, "登入失敗", Toast.LENGTH_SHORT).show();
+
+                } if (!task.isSuccessful()){
+                    String failure_message = "登入失敗，請重新確認輸入資料";
+                    new AlertDialog.Builder(LoginActivity.this)
+                            .setMessage(failure_message)
+                            .show();
                 }
             }
         });
