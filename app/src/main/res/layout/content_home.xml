@@ -1,44 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.admin.secondsell.ThreeActivity"
+    style="@style/AppTheme.NoActionBar"
+    app:layout_constraintTop_toTopOf="@+id/appBarLayout"
+    tools:layout_editor_absoluteX="0dp"
+    android:layout_marginTop="8dp">
+
 
     <Button
-        android:text="BOOK"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:id="@+id/home_button_book"
+            android:text="BOOK"
+            android:layout_width="88dp"
+            android:layout_height="48dp"
+            android:id="@+id/home_button_book"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.206"
+            app:layout_constraintHorizontal_bias="0.114" />
+
+        <Button
+            android:text="clothes"
+            android:layout_width="88dp"
+            android:layout_height="48dp"
+            android:id="@+id/home_button_clothes"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.206" />
+
+        <Button
+            android:text="3C"
+            android:layout_width="88dp"
+            android:layout_height="48dp"
+            android:id="@+id/home_button_3C"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.206"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.881" />
+
+    <android.support.design.widget.AppBarLayout
+
+        android:id="@+id/appBarLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.100000024"
-        app:layout_constraintHorizontal_bias="0.15" />
+        app:layout_constraintVertical_bias="0.0">
 
-    <Button
-        android:text="clothes"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:id="@+id/home_button_clothes"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.100000024" />
-
-    <Button
-        android:text="3C"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:id="@+id/home_button_3C"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.100000024"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.85" />
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/colorPressedHighlight"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-53dp" />
+    </android.support.design.widget.AppBarLayout>
 
 
 </android.support.constraint.ConstraintLayout>
