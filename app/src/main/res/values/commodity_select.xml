@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="commodity_select">
+        <item>書</item>
+        <item>衣服</item>
+        <item>家具</item>
+        <item>3C</item>
+        <item>美妝</item>
+        <item>票卷</item>
+        <item>包包</item>
+        <item>其他</item>
+    </array>
+</resources>

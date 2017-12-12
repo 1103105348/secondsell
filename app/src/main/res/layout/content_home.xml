@@ -14,8 +14,66 @@
 
 
     <Button
-            android:text="BOOK"
-            android:layout_width="88dp"
+        android:id="@+id/home_button_other"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="其他"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/home_button_bag"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="包包"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/home_button_ticket"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="票卷"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/home_button_makeup"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="美妝"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/home_button_Furniture"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:text="家具"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+            android:text="書"
+            android:layout_width="100dp"
             android:layout_height="48dp"
             android:id="@+id/home_button_book"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -26,8 +84,8 @@
             app:layout_constraintHorizontal_bias="0.114" />
 
         <Button
-            android:text="clothes"
-            android:layout_width="88dp"
+            android:text="衣服"
+            android:layout_width="100dp"
             android:layout_height="48dp"
             android:id="@+id/home_button_clothes"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -38,7 +96,7 @@
 
         <Button
             android:text="3C"
-            android:layout_width="88dp"
+            android:layout_width="100dp"
             android:layout_height="48dp"
             android:id="@+id/home_button_3C"
             app:layout_constraintTop_toTopOf="parent"

@@ -51,11 +51,11 @@
                     android:background="@android:color/transparent" />
 
                 <Button
-                    android:text="販售情形"
+                    android:id="@+id/button_sell_situation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_sell_situation"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:text="我的商品" />
 
                 <Button
                     android:text="訂閱"

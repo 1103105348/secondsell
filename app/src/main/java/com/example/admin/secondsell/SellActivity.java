@@ -11,6 +11,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -41,6 +42,7 @@ public class SellActivity extends ParentActivity {
 
     private String do_nothing = "error";
     private String load_img_fail = "load image fail";
+    private String imageURL;
     private Uri imgUri;
     private Task<UploadTask.TaskSnapshot> uploadTask;
 
@@ -137,23 +139,38 @@ public class SellActivity extends ParentActivity {
         }
     }
 
-    private void upload(Uri uri) {
-        StorageReference riversRef = storageRef.child("/photos/" + uri.getLastPathSegment()+".jpg");
+    private void upload(final Uri uri) {
+        final StorageReference riversRef = storageRef.child("/photos/" + uri.getLastPathSegment()+".jpg");
 
         riversRef.putFile(uri)
                 .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        Toast.makeText(SellActivity.this, "Image Uploaded.", Toast.LENGTH_LONG).show();
+                        Log.e("url",taskSnapshot.getDownloadUrl().toString());
+                        Log.e("url",riversRef.getDownloadUrl().toString());
+                        imageURL = taskSnapshot.getDownloadUrl().toString();
+                        Toast.makeText(SellActivity.this,"Image onSuccess." , Toast.LENGTH_SHORT).show();
+                        next(imageURL,uri.getLastPathSegment());
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception exception) {
-                        Toast.makeText(SellActivity.this, "Image onFailure.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(SellActivity.this, "Image onFailure.", Toast.LENGTH_SHORT).show();
 
                     }
                 });
+    }
+    private void next(String url,String image_name){
+
+        Log.e("A",image_name);
+        Intent intent = new Intent();
+        intent.setClass(SellActivity.this ,Sell2Activity.class );
+        intent.putExtra("Url",url);
+        intent.putExtra("image_name",image_name);
+        startActivity(intent);
+        finish();
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
 
 }

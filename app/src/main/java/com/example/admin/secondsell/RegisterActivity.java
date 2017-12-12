@@ -16,6 +16,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class RegisterActivity extends AppCompatActivity {
@@ -30,11 +32,16 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regist);
 
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        final DatabaseReference dbRef = database.getReference("UserID");
+
+
+
         Button register_button = (Button) findViewById(R.id.regist_button);
         register_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                register();
+                register(dbRef);
             }
         });
     }
@@ -47,10 +54,12 @@ public class RegisterActivity extends AppCompatActivity {
 
     }
 
-    public void register(){
+    public void register(final DatabaseReference userIDRef){
+
 
         String register_email = ((EditText) findViewById(R.id.regist_editText_email)).getText().toString();
         String register_password = ((EditText) findViewById(R.id.regist_editText_password)).getText().toString();
+
 
         ((DefaultApplication)getApplication()).getAuth()
                 .createUserWithEmailAndPassword(register_email,register_password)
@@ -63,9 +72,9 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "註冊成功，可以登入囉!",
                             Toast.LENGTH_SHORT).show();
                     user = ((DefaultApplication)getApplication()).getAuth().getCurrentUser();
+                    userUID = user.getUid();
+                    next(userIDRef,userUID);
 
-                    startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
-                    finish();
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 
                 } else {
@@ -77,12 +86,24 @@ public class RegisterActivity extends AppCompatActivity {
 
                 }
 
-                /*String register_message = task.isSuccessful()?"註冊成功":"註冊失敗";
-                new AlertDialog.Builder(RegisterActivity.this)
-                        .setMessage(register_message)
-                        .setPositiveButton("OK",null)
-                        .show();*/
+
             }
         });
     }
+    private void next(DatabaseReference USERIDREF,String userUID){
+
+        String register_ID = ((EditText) findViewById(R.id.register_editText_ID)).getText().toString();
+        USERIDREF.child(userUID).child("name").setValue(register_ID);
+        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+        finish();
+
+        /*Log.e("A",url);
+        Intent intent = new Intent();
+        intent.setClass(SellActivity.this ,Sell2Activity.class );
+        intent.putExtra("Url",url);
+        startActivity(intent);
+        finish();
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);*/
+    }
+
 }

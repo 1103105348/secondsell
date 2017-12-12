@@ -46,7 +46,24 @@
         <activity
             android:name=".HomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Sell2Activity"></activity>
+        <activity
+            android:name=".Sell2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CommodityActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BuyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

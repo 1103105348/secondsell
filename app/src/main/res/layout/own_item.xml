@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/own_button_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/own_button_edit"
+        android:layout_alignBottom="@+id/own_button_edit"
+        android:layout_alignParentEnd="true"
+        android:text="刪除" />
+
+    <Button
+        android:id="@+id/own_button_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/own_text_content"
+        android:layout_below="@+id/own_img"
+        android:text="編輯" />
+
+    <ImageView
+        android:id="@+id/own_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/own_text_name"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/own_text_price"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/own_text_name" />
+
+    <TextView
+        android:id="@+id/own_text_content"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/own_text_price" />
+
+</RelativeLayout>

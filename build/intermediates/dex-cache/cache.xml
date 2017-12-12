@@ -30,6 +30,42 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\1eca8a837e617c9c96ac5055f8f2d14f438776dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_7557acc9d80385b457f9848991029775199db9ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\08c36676411dcf4ba049253600cb471d7ea8ad08\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_199d1fb0325a5fde789c971f6f878ba08b6b9730.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\3d28623f65573e6b38bfc1e43a473e1b69280c7f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_1eeaa440cf6f15dcef7954beb0f00aab1853497e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\5d04b6e9218df552464114dcd89a61b9e652db3a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_6db6026679df1edcec11f476b79f6d5a2d7af68a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Admin\.android\build-cache\35cb17c1dbd8a69eadc9af1bf2dbc566bff4d37f\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,39 +75,84 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\fd6beb514fdcc42689a95bf9c91bc08c7dc76c5b\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\0bbab8043de13b6748be3426491ad1683d24fd14\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_ebeea645dec68a6484d24da4406c4963d6d2c621.jar" />
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_9d076488e6186aec770a82b99f29dc3808f1ee56.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\71f1e78116254bbdf2f4c9c4d4d7c95284125c35\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\89fec569921ddbd96836c35c6273d2f2902f0b58\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_caf74cadeedcc7c52298b7d9c8dc497f337dba32.jar" />
+        revision="26.0.1"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_5fa5fe41a1ea6606c992c2dcb05077feffe18425.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jar="C:\Users\Admin\.android\build-cache\19f630f52b63c45b7536a6d2fc6a62b530c400ac\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_d2854a7e3d8c7649f89621d3ac13b2103a53abd3.jar" />
+        revision="26.0.1"
+        sha1="bf4fb00f04118828b9faea3f72e1514065a5441e">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_53cfd90922aacc532697c5858eee6bd08ff4294d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\a612940580880b290a3be36d235b3c4c1af71bf4\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\dedae1ad86f93ac15ea0726e07ffc1b7b8cba896\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_ac2fb6fcde2cdbd1050fa5b6b153133bb2958958.jar" />
+        revision="26.0.1"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_436acc1c1b002a4b6f91bbc7fd5a874f86612b35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\760e06f242cb5db42f9b8d51d824094b012abdd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_37a6a31b7186cabedd1fbee0bc84d1ae0b799abb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\72caf0e772412f66478038fbbb9f9927ff08ba52\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_eb16f1fe016c20c3d01231baa9f81d1fad43c0af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\glide-3.7.0_2a6d8b6d439392063df173dd541b8b23a73bd5ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\52a90d521fec4caa62eb9192ad1353965e856f92\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_39a90b6284a1453b55211e4cac8454c716bf8bea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\2f7a2f773fe2961717e3f8ffa5f1b30e5bdb0ed1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_d9da1ba8d653023d197f5a9335cc43657a0eebea.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,57 +165,120 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\20f4f7fa843fc1d261f62cad3c3ed63ddb2c49be\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\8b66116a88558bdaae5f56a3938f6820ff33329b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_78ae9e218500c9f0916ac14f0a9f6fdf08cbafbb.jar" />
+        revision="26.0.1"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_416661a73505cbd19b0b3da7c2b818b9d608498d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\ae9d77dc3a6e8319fb642534ceea95ffcbd76a51\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\1c50ad92e2d553ed6b2205470545d48d403788f7\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_4a0c8b7674300be68da029712d4ead7466a9c96f.jar" />
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_32d0a4b6e6fcd2996c4a62ae5b64c73399ac69cb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\1cf05160adcf727fc466c0e01cef304b22f34ae1\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\9dba2ab65931e7f9c80ab048af4eaf6fa9a1186e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_8c19e6350686d7109892a258084af42d89b60ae6.jar" />
+        revision="26.0.1"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_6ebfa893811b27a8b9c84aa95cd20bc6e07d934e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\17d3764f6db982b8950401585fb843dbcecd540e\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\c6204613803f8ba01084e01fed2b902f144a571e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_29951f9ea4ad7aecda19fd93881853b3762dea2c.jar" />
+        revision="26.0.1"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_ec7ac9bf889fc0a5128d25c8cb4e7dd6b417076a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\e11744c6192a45d38a97121ab0bc95954c6c7753\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\b2644daf73e06036311a14227eea5892dc03b3d1\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_077e28261c1dc58d3cb7d4a378e642501d59752e.jar" />
+        revision="26.0.1"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_8c033b33a67d359a34f7c9f21d5daa3d22d24adf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\43a0bbf51aa4a5116771cfdbaba60ddb4a90a20b\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\e9c26dd36c65c9631b6582741fcfd23d65cdedfb\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_36718b553c09e4b6c71b1787400decfb5a6d2d31.jar" />
+        revision="26.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_f4a1db734e6535c64511744bdc4559a40bcca0bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\893ce01de43f91c87c7eb92d5248c1704c216270\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_1f2ec16f32fab158107bc8cc93af1fe48d2964ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\35cb17c1dbd8a69eadc9af1bf2dbc566bff4d37f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_50a00153f2f580c6b8c3b87e10537a5145ee51bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\e67539329d40fc611ccd660b08ead51004140856\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_b78acebef17b2de33a865bc20406d388043609c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\ac50172fca5040d523fa2e94fecc1763950b29a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_01f17427b79298e76dd814078b8f801557dc1d1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_80a7eb9759a94134c3f73da51f50415cfec947ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\0a5b452d0f4158b9a07743e79f6b4c3d194ea104\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_fec12f6a5689d27a50b7745311e3e28baa7ca6d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\826eb715b89a02c08ac63f76478bd687ac149945\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_46251cfe7f19d9aa45ecf4d9b6983f29531f2927.jar" />
     </item>
     <item
         is-multidex="false"
@@ -144,15 +288,6 @@
         revision="25.0.0"
         sha1="e5b429c146094a612134910688d169ec08deeefb">
         <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_39a90b6284a1453b55211e4cac8454c716bf8bea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\5ce0b5098111b2d124164e4ab212107e1c1cf96b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_d3886d3d5b371bd3ec1cc18dfdaff5d7c24a156b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,6 +309,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\9dba2ab65931e7f9c80ab048af4eaf6fa9a1186e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_6ebfa893811b27a8b9c84aa95cd20bc6e07d934e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Admin\.android\build-cache\8b66116a88558bdaae5f56a3938f6820ff33329b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -183,12 +327,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\f840fa998d591fc7a8f692085a15fb747c93e94d\output\jars\classes.jar"
+        jar="C:\Users\Admin\.android\build-cache\8c2aa1d745bc8efab1704325b1f064d3a4bb2c4c\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_0a0c9eb108e006fcb4a144ff763c6ff19540db8f.jar" />
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_7d0fcd49ce30a948292decbacccc01217bf6e392.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\6be2029b0508d981a951bb81901675063acac0e7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_31c041f073507a6ff29ef1217aef2f939287cbf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\c72701549787ee17b757635d18ebbd5ecfab7856\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_f169bece922f77d3b17701a0081df4871f80325d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,12 +372,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Admin\.android\build-cache\b97fef3424eb1b1f8d8c12a0cc8be9a67561b605\output\jars\classes.jar"
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_91e1aae7eb18d0516eaa978ad4a8b456f6690c93.jar" />
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_765acbcefc1c012573eba0d025a56ceb36568ae2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\.android\build-cache\31f40082ac383a63c1a49d927b40c2a8fbff8f28\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\intermediates\pre-dexed\debug\classes_3e69028f5fb2d19ba20174d792e33d7861405348.jar" />
     </item>
 
 </items>

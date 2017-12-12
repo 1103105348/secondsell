@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.admin.secondsell.ThreeActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/content_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <Spinner
+            android:id="@+id/edit_spinner"
+            android:layout_width="127dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/edit_editText_content"
+            android:layout_marginStart="19dp" />
+
+        <ImageView
+            android:id="@+id/edit_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_normal_background" />
+
+        <TextView
+            android:id="@+id/edit_textView_name"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/edit_imageView"
+            android:layout_alignStart="@+id/edit_spinner"
+            android:text="商品名稱" />
+
+        <TextView
+            android:id="@+id/edit_textView_price"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_imageView"
+            android:layout_marginTop="20dp"
+            android:text="價格" />
+
+        <TextView
+            android:id="@+id/edit_textView_content"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_textView_price"
+            android:layout_marginTop="20dp"
+            android:text="內容" />
+
+        <TextView
+            android:id="@+id/edit_textView_place"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_textView_content"
+            android:layout_marginTop="20dp"
+            android:text="可交易地點" />
+
+        <TextView
+            android:id="@+id/edit_textView_time"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_textView_place"
+            android:layout_marginTop="20dp"
+            android:text="可交易時間" />
+
+        <TextView
+            android:id="@+id/edit_textView_other"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_textView_time"
+            android:layout_marginTop="20dp"
+            android:text="備註" />
+
+        <EditText
+            android:id="@+id/edit_editText_name"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/edit_textView_name"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <EditText
+            android:id="@+id/edit_editText_price"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/edit_editText_content"
+            android:layout_alignTop="@+id/edit_textView_price"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <EditText
+            android:id="@+id/edit_editText_content"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/edit_textView_content"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/edit_imageView"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <EditText
+            android:id="@+id/edit_editText_place"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/edit_textView_place"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/edit_imageView"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <EditText
+            android:id="@+id/edit_editText_time"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/edit_textView_time"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/edit_imageView"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <EditText
+            android:id="@+id/edit_editText_other"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignTop="@+id/edit_textView_other"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/edit_imageView"
+            android:ems="10"
+            android:hint="若沒有請填無"
+            android:inputType="textPersonName"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <Button
+            android:id="@+id/edit_button_stroge"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="更改圖片" />
+
+        <Button
+            android:id="@+id/edit_button_update"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="更新資料" />
+    </RelativeLayout>
+
+    <android.support.design.widget.AppBarLayout
+
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/colorPressedHighlight"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-53dp" />
+    </android.support.design.widget.AppBarLayout>
+</android.support.design.widget.CoordinatorLayout>
