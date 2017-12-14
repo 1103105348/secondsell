@@ -35,7 +35,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
@@ -47,7 +46,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
@@ -59,7 +57,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
@@ -71,7 +68,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
@@ -83,7 +79,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
@@ -95,7 +90,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
@@ -107,7 +101,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
@@ -119,7 +112,6 @@ public class HomeActivity extends ParentActivity {
                 intent.setClass(HomeActivity.this ,CommodityActivity.class );
                 intent.putExtra("search",search );
                 startActivity(intent);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });

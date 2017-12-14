@@ -73,7 +73,7 @@ public class RegisterActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                     user = ((DefaultApplication)getApplication()).getAuth().getCurrentUser();
                     userUID = user.getUid();
-                    next(userIDRef,userUID);
+                    next(userIDRef,userUID,user);
 
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 
@@ -90,20 +90,15 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
     }
-    private void next(DatabaseReference USERIDREF,String userUID){
-
+    private void next(DatabaseReference USERIDREF,String userUID,FirebaseUser user){
+        String email = user.getEmail();
         String register_ID = ((EditText) findViewById(R.id.register_editText_ID)).getText().toString();
         USERIDREF.child(userUID).child("name").setValue(register_ID);
+        USERIDREF.child(userUID).child("email").setValue(email);
         startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
         finish();
 
-        /*Log.e("A",url);
-        Intent intent = new Intent();
-        intent.setClass(SellActivity.this ,Sell2Activity.class );
-        intent.putExtra("Url",url);
-        startActivity(intent);
-        finish();
-        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);*/
+
     }
 
 }

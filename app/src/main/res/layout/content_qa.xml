@@ -31,10 +31,60 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <Button
-            android:layout_width="match_parent"
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            app:srcCompat="@drawable/tree" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="gg" />
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text='如何訂閱:\n當看到中意的商品，但目前卻沒有購買慾望，可以點擊螢幕左下角"購物車"。' />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="16dp"
+            android:text="如何購買:\n當滑到喜歡的商品又一定非買不可時，點擊右下角[購買]，即可送出email通知賣家。" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="16dp"
+            android:text="如何刪除:\n點選[我的商品]，選取將要刪除商品，按下[刪除]，即可下架商品。" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:text="如何新增商品:\n點選[買東西]，上傳商品圖片，接著填寫商品資訊確定後按[提交]即可新增商品。" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="15dp"
+            android:text="如何編輯:\n點選[我的商品]，選擇要更改的商品，確認無誤後點選[更新資料]。" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

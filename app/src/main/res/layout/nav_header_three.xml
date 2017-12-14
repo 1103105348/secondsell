@@ -58,11 +58,11 @@
                     android:text="我的商品" />
 
                 <Button
-                    android:text="訂閱"
+                    android:id="@+id/button_sub"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button_sub"
-                    android:background="@android:color/transparent" />
+                    android:background="@android:color/transparent"
+                    android:text="購物車" />
 
                 <Button
                     android:text="關於我們"

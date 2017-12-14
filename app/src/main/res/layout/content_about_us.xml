@@ -31,10 +31,32 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <Button
+
+        <ImageView
+            android:id="@+id/aboutus_imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ff" />
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="54dp"
+            app:srcCompat="@drawable/flower" />
+
+        <TextView
+            android:id="@+id/textView_aboutus2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_aboutus"
+            android:layout_marginTop="41dp"
+            android:text="製作理念:\n目前KUAS有一個FB二手拍賣網站，但上面的資訊太過凌亂也沒有分類，常常找不到自己所需要的東西，且又因為缺乏管理，使得有些拍賣的分類並不妥當，因此有許多可以改進的地方。這時就需要中間人的管理，把我們所做的APP當作買家賣家之間的橋樑，讓想買的人跟要賣的東西能夠搭在一起，因此藉由這次的專題來改善KUAS二手拍賣APP的不足。
+                          " />
+
+        <TextView
+            android:id="@+id/textView_aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="作者群:\n黃思賢、蔡宇杰、張維哲、石承民"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

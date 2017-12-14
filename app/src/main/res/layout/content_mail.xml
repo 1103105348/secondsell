@@ -32,6 +32,45 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
+        <EditText
+            android:id="@+id/mail_editText_text"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mail_editText_subject"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="想傳達的訊息"
+            android:gravity="left"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/mail_editText_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mail_textView_email"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="主旨"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/mail_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="傳送電子郵件" />
+
+        <TextView
+            android:id="@+id/mail_textView_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

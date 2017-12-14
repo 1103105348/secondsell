@@ -46,9 +46,6 @@ public class BuyActivity extends ParentActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference dbRef = database.getReference("commodity");
 
-
-
-
         Query queryRef = dbRef.orderByChild("name").equalTo(wanted);
         queryRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -81,7 +78,7 @@ public class BuyActivity extends ParentActivity {
         buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                buy();
+                buy(myCommodity.getUser());
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
@@ -131,11 +128,14 @@ public class BuyActivity extends ParentActivity {
         intent.setClass(BuyActivity.this ,CommodityActivity.class );
         intent.putExtra("search",back_to_commodity);
         startActivity(intent);
-        finish();
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
-    private void buy(){
-
+    private void buy(String userUID){
+        Intent intent = new Intent();
+        intent.setClass(BuyActivity.this ,MailActivity.class );
+        intent.putExtra("userUID",userUID);
+        startActivity(intent);
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
     private void subscripe(){
 

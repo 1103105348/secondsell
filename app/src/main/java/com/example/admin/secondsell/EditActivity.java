@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.admin.secondsell.models.Commodity;
+import com.firebase.ui.storage.images.FirebaseImageLoader;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseUser;
@@ -32,6 +33,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.google.gson.Gson;
 
 import java.util.ArrayList;
 
@@ -39,12 +41,13 @@ public class EditActivity extends ParentActivity {
 
     public static final int REQUEST_UPDATE_IMAGE = 3001;
 
+    private String ImgName;
     private Commodity editCommodity;
     private ImageView ed_imageView;
     private Button update_image, update;
     private String new_name, new_price, new_content, new_place, new_time, new_other;
-    private String select,imageURL;
-    private Uri new_uri;
+    private String select, imageURL;
+    private String new_url,new_image_name;
 
 
     @Override
@@ -76,7 +79,7 @@ public class EditActivity extends ParentActivity {
 
         Bundle bundle = getIntent().getExtras();
         final String edit_item = bundle.getString("edit_item");
-        final String ImgName = bundle.getString("ImgName");
+        ImgName = bundle.getString("ImgName");
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference dbRef = database.getReference("commodity");
@@ -107,14 +110,13 @@ public class EditActivity extends ParentActivity {
                 update_image.setClass(EditActivity.this, UpdateImageActivity.class);
                 update_image.putExtra("image_name", ImgName);
                 startActivityForResult(update_image, REQUEST_UPDATE_IMAGE);
-                finish();
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                updateData(dbRef, edit_item, select);
+                updateData(dbRef, edit_item, select, ImgName,editCommodity);
             }
         });
     }
@@ -138,17 +140,43 @@ public class EditActivity extends ParentActivity {
                 .into(ed_imageView);
 
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (resultCode == RESULT_OK) {
+        if (resultCode != RESULT_CANCELED) {
             if (requestCode == REQUEST_UPDATE_IMAGE) {
-                new_uri = data.getData();
-                Toast.makeText(EditActivity.this, new_uri.toString(), Toast.LENGTH_LONG).show();
+
+
+                StorageReference storageRef = FirebaseStorage.getInstance().getReference();
+                final StorageReference removeRef = storageRef.child("/photos/" + ImgName + ".jpg");
+
+                Intent intent = this.getIntent();
+                Bundle bundle1 = intent.getExtras();
+                Log.e("",(bundle1==null)+"");
+                new_url = bundle1.getString("New_url");
+                new_image_name =  bundle1.getString("New new_image_name");
+                Log.e("C",new_url);
+                Log.e("D",new_image_name);
+                Glide.with(ed_imageView.getContext())
+                        .load(new_url)
+                        .into(ed_imageView);
+
+                removeRef.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+
+                    }
+                });
+                //Uri uti = Uri.parse(getIntent().getStringExtra("New Url"));
             }
         }
     }
-    private void updateData(DatabaseReference dbRef, String edit_item, String new_category) {
+
+    private void updateData(final DatabaseReference dbRef, final String edit_item, String new_category, String ImgName,Commodity editCommodity) {
+
+        dbRef.child(edit_item).removeValue();
+
         EditText ed_name = (EditText) findViewById(R.id.edit_editText_name);
         EditText ed_price = (EditText) findViewById(R.id.edit_editText_price);
         EditText ed_content = (EditText) findViewById(R.id.edit_editText_content);
@@ -161,48 +189,38 @@ public class EditActivity extends ParentActivity {
         new_place = ed_place.getText().toString();
         new_time = ed_time.getText().toString();
         new_other = ed_other.getText().toString();
-        dbRef.child(edit_item).child("name").setValue(new_name);
-        dbRef.child(edit_item).child("price").setValue(new_price);
-        dbRef.child(edit_item).child("place").setValue(new_place);
-        dbRef.child(edit_item).child("content").setValue(new_content);
-        dbRef.child(edit_item).child("time").setValue(new_time);
-        dbRef.child(edit_item).child("other").setValue(new_other);
-        dbRef.child(edit_item).child("category").setValue(new_category);
+        dbRef.child(new_name).child("name").setValue(new_name);
+        dbRef.child(new_name).child("price").setValue(new_price);
+        dbRef.child(new_name).child("place").setValue(new_place);
+        dbRef.child(new_name).child("content").setValue(new_content);
+        dbRef.child(new_name).child("time").setValue(new_time);
+        dbRef.child(new_name).child("other").setValue(new_other);
+        dbRef.child(new_name).child("category").setValue(new_category);
+        dbRef.child(new_name).child("url").setValue(new_url);
+        dbRef.child(new_name).child("image_name").setValue(new_image_name);
+        dbRef.child(new_name).child("user").setValue(editCommodity.getUser());
 
-        StorageReference storageRef = FirebaseStorage.getInstance().getReference();
-        final StorageReference removeRef = storageRef.child("/photos/" + new_uri.getLastPathSegment()+".jpg");
-        final StorageReference riversRef = storageRef.child("/photos/" + new_uri.getLastPathSegment()+".jpg");
-
-        removeRef.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
-            @Override
-            public void onSuccess(Void aVoid) {
-
-            }
-        });
-
-        riversRef.putFile(new_uri)
+        /*riversRef.putFile(new_uri)
                 .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        Log.e("url",taskSnapshot.getDownloadUrl().toString());
+                        Log.e("url", taskSnapshot.getDownloadUrl().toString());
                         imageURL = taskSnapshot.getDownloadUrl().toString();
-                        Toast.makeText(EditActivity.this,"Image onSuccess." , Toast.LENGTH_SHORT).show();
+                        Toast.makeText(EditActivity.this, "Image onSuccess.", Toast.LENGTH_SHORT).show();
+                        dbRef.child(edit_item).child("url").setValue(imageURL);
+                        dbRef.child(edit_item).child("image_name").setValue(imageURL);
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception exception) {
                         Toast.makeText(EditActivity.this, "Image onFailure.", Toast.LENGTH_SHORT).show();
-
                     }
-                });
-
+                });*/
 
 
         Toast.makeText(EditActivity.this, "您的商品已更新成功", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(EditActivity.this, SellSituationActivity.class));
 
     }
-
-
 }

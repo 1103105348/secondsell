@@ -120,7 +120,6 @@ public class CommodityActivity extends ParentActivity {
                     intent.setClass(CommodityActivity.this, BuyActivity.class);
                     intent.putExtra("wanted", mData.get(position).getName());
                     startActivity(intent);
-                    finish();
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                     Toast.makeText(CommodityActivity.this, "Item " + mData.get(position).getName() + " is clicked.", Toast.LENGTH_SHORT).show();
                 }
