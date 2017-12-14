@@ -4,10 +4,9 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -16,15 +15,11 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.firebase.ui.storage.images.FirebaseImageLoader;
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.google.gson.Gson;
 
 public class UpdateImageActivity extends ParentActivity {
 
@@ -122,7 +117,7 @@ public class UpdateImageActivity extends ParentActivity {
                                 Log.e("url", taskSnapshot.getDownloadUrl().toString());
                                 imageURL = taskSnapshot.getDownloadUrl().toString();
                                 Toast.makeText(UpdateImageActivity.this, "Image onSuccess.", Toast.LENGTH_SHORT).show();
-                                next(imageURL,uri.getLastPathSegment());
+                                next(imageURL, uri.getLastPathSegment());
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {
@@ -140,14 +135,14 @@ public class UpdateImageActivity extends ParentActivity {
 
     }
 
-    private void next(String new_url,String new_image_name) {
-        String test ="test";
+    private void next(String new_url, String new_image_name) {
+        String test = "test";
         Log.e("A", new_url);
         Log.e("B", new_image_name);
         Intent intent = new Intent();
-        intent.putExtra("New_url",new_url);
-        intent.putExtra("New new_image_name",new_image_name);
-
+        intent.putExtra("New_url", new_url);
+        intent.putExtra("New new_image_name", new_url);
+        intent.putExtra("test","123");
         //intent.putExtra("New Uri", imgUri.toString());
         setResult(RESULT_OK, intent);
         finish();

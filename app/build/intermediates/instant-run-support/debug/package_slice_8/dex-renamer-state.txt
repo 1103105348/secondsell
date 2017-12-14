@@ -1,4 +1,4 @@
-#Fri Sep 22 20:41:42 CST 2017
-base.0=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
+#Fri Dec 15 00:24:11 CST 2017
+base.0=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
 renamed.0=classes.dex
-file.0=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex
+file.0=C\:\\Github\\secondsell\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9\\classes.dex

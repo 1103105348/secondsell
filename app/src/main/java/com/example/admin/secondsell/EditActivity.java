@@ -1,10 +1,6 @@
 package com.example.admin.secondsell;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,16 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.admin.secondsell.models.Commodity;
-import com.firebase.ui.storage.images.FirebaseImageLoader;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -32,10 +23,6 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
-import com.google.gson.Gson;
-
-import java.util.ArrayList;
 
 public class EditActivity extends ParentActivity {
 
@@ -146,18 +133,10 @@ public class EditActivity extends ParentActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode != RESULT_CANCELED) {
             if (requestCode == REQUEST_UPDATE_IMAGE) {
-
-
                 StorageReference storageRef = FirebaseStorage.getInstance().getReference();
                 final StorageReference removeRef = storageRef.child("/photos/" + ImgName + ".jpg");
-
-                Intent intent = this.getIntent();
-                Bundle bundle1 = intent.getExtras();
-                Log.e("",(bundle1==null)+"");
-                new_url = bundle1.getString("New_url");
-                new_image_name =  bundle1.getString("New new_image_name");
-                Log.e("C",new_url);
-                Log.e("D",new_image_name);
+                new_url = data.getStringExtra("New_url");
+                new_image_name =  data.getStringExtra("New new_image_name");
                 Glide.with(ed_imageView.getContext())
                         .load(new_url)
                         .into(ed_imageView);

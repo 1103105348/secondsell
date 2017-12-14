@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\src\main\assets"/><source path="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Admin\Desktop\secondsell(new)\secondsell\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Github\secondsell\app\src\main\assets"/><source path="C:\Github\secondsell\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Github\secondsell\app\src\debug\assets"/></dataSet></merger>
